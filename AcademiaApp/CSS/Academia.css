@@ -1,0 +1,56 @@
+﻿.Logo {
+    color:#d31111;
+    font-size:xx-large;
+    font-family:'Segoe Marker';
+    font-weight:bold;
+}
+.tdHeader {
+    text-align:center;font-family:'Segoe Marker';font-size:x-large;color:#d31111
+}
+.tdLabel {
+    font-family:'Segoe Marker';font-size:large;line-height:50px;
+}
+.tdLinkLabel {
+    font-family:'Segoe Marker';font-size:large;line-height:50px;color:#d31111;text-decoration:none
+}
+.tdLinkLabel:hover {
+    font-family:'Segoe Marker';font-size:large;line-height:50px;color:#d31111;font-weight:bold;text-decoration:none
+}
+.buttonMedium {
+    font-family:'Segoe Marker';font-size:large;color:#d31111;border-color:#d31111;background-color:whitesmoke;height:30px;
+}
+.buttonMedium:hover {
+    font-family:'Segoe Marker';font-size:large;color:#d31111;border-color:#d31111;cursor:pointer;background-color:white;height:30px;
+}
+.textBoxmedium {
+    font-family:'Segoe Marker';font-size:medium;color:#d31111;border-color:#d31111;border-radius:2px;width:200px;border:1px solid;height:25px;
+}
+.textBoxsmall{
+    font-family:'Segoe Marker';font-size:medium;color:#d31111;border-color:#d31111;border-radius:2px;width:70px;border:1px solid;height:25px;
+}
+.ddrmedium {
+    font-family:'Segoe Marker';font-size:medium;color:#d31111;border-color:#d31111;border-radius:2px;width:200px;border:1px solid;height:29px;
+}
+.ddrsmall{
+    font-family:'Segoe Marker';font-size:medium;color:#d31111;border-color:#d31111;border-radius:2px;width:100px;border:1px solid;height:29px;
+}
+
+.linkMedium {
+    font-family:'Segoe Marker';font-size:medium;color:#d31111;text-decoration:none;
+}
+.linkxLarge{
+    font-family:'Segoe Marker';font-size:x-large;color:#d31111;text-decoration:none;
+}
+.linkLarge{
+    font-family:'Segoe Marker';font-size:large;color:#d31111;text-decoration:none;
+}
+
+.errorMessage {
+        font-family:'Segoe Marker';font-size:small;color:#d31111;line-height:30px;
+}
+.listViewLabel {
+    text-align:left;font-family:'Segoe Marker';color:#d31111;font-size:medium;font-weight:bold;
+}
+.listViewData{
+    text-align:left;font-family:'Segoe Marker';color:#d31111;font-size:medium;font-weight:normal;
+}

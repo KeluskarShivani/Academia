@@ -1,0 +1,160 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="StudentMaster.master.cs" Inherits="AcademiaApp.Master.StudentMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../CSS/Academia.css" rel="stylesheet" />
+</head>
+<body style="margin:0px;margin:0px;background:url('/background/main.jpg')">
+     <center>
+    <form id="form1" runat="server">
+    <table style="width:1080px;border-collapse:collapse">
+        <tr>
+            <td style="height:40px;width:580px">
+            <a href="Home.aspx" style="text-decoration:none"><span class="Logo">Academia</span></a>        
+            </td>
+            <td style="width:120px;text-align:center;">
+                <a href="Home.aspx" class="tdLinkLabel">Home</a>
+            </td>
+            <td style="width:80px;text-align:center;border-left:1px solid #d31111">
+                <a href="Friends.aspx" class="tdLinkLabel">Friends</a>
+            </td>
+            <td style="width:100px;text-align:center;border-left:1px solid #d31111">
+                <a href="Contents.aspx" class="tdLinkLabel">Contents</a>
+            </td>
+            <td style="width:100px;text-align:center;border-left:1px solid #d31111"">
+                <a href="Requests.aspx" class="tdLinkLabel">Requests</a><asp:Label runat="server" ID="lblRequestCount"></asp:Label>
+            </td>
+            <td style="width:100px;text-align:center;border-left:1px solid #d31111"">
+                <a href="StudentFeedback.aspx" class="tdLinkLabel">Feedback</a><asp:Label runat="server" ID="lblFeedbackCount"></asp:Label>
+            </td>
+             <td style="width:100px;text-align:center;border-left:1px solid #d31111">
+                <a href="SignOut.aspx" class="tdLinkLabel">Sign Out</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="7">
+                <hr style="border:1px solid #d31111" />
+            </td>
+        </tr>
+            <tr>
+            <td style="vertical-align:top;" colspan="7">
+                <table style="width:100%;height:780px;border-collapse:collapse">
+                    <tr>
+                        <td style="width:200px;vertical-align:top">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <asp:Image id="imgProfilePhoto" runat="server" Width="200" Height="200" BorderColor="#d31111" BorderWidth="1" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><hr style="border:1px solid #d31111" /></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align:center">
+                                        <asp:LinkButton ID="linkProfileName" runat="server" CssClass="linkxLarge" OnClick="linkProfileName_Click"></asp:LinkButton>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><hr style="border:1px solid #d31111" /></td>
+                                </tr>
+                                 <tr>
+                                    <td style="text-align:center">
+                                        <asp:LinkButton ID="linkFriends" runat="server" CssClass="linkLarge" Text="My Friends" OnClick="linkFriends_Click"></asp:LinkButton>
+                                        <asp:Label ID="lblFriendsCount" runat="server" ></asp:Label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><hr style="border:1px solid #808080" /></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align:center">
+                                        <asp:LinkButton ID="linkConternts" runat="server" CssClass="linkLarge" Text="My Contents" OnClick="linkConternts_Click"></asp:LinkButton>
+                                        <asp:Label ID="linkContentCount" runat="server" ></asp:Label>
+                                    </td>
+                                </tr>
+                                                                <tr>
+                                    <td><hr style="border:1px solid #808080" /></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align:center">
+                                        <asp:LinkButton ID="linkMessages" runat="server" CssClass="linkLarge" Text="Messages" OnClick="linkMessages_Click"></asp:LinkButton>
+                                        <asp:Label ID="lblUnreadMessageCount" runat="server" ></asp:Label>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td><hr style="border:1px solid #808080" /></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align:center">
+                                        <asp:LinkButton ID="linkDelete" runat="server" CssClass="linkLarge" Text="Delete Account" OnClick="linkDelete_Click"></asp:LinkButton>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                        <td style="width:680px;vertical-align:top">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                        </asp:ContentPlaceHolder>
+                        </td>
+                        <td style="width:200px;vertical-align:top;text-align:center">
+                                                    <span class="tdHeader">Notifications</span>
+                                                    <br /><hr/>
+                             <asp:ListView ID="listNotifications" runat="server" DataKeyNames="NOTIFICATION_ID" DataSourceID="SqlDataSourceNotifications" >
+                 
+                   
+                        <EmptyDataTemplate>
+                            <span class="tdLinkLabel" style="text-align:center">No data found.</span>
+                        </EmptyDataTemplate>
+                   
+                        <ItemTemplate>
+                        <table style="width:100%;border-collapse:collapse">
+                            <tr>
+                                <td style="text-align:left;font-weight:normal;font-family:'Segoe Marker';color:#d31111;font-size:medium">
+                                    <%#Eval("REMARKS")%>
+                                </td>
+                            </tr>  
+                            <tr>
+                                <td style="text-align:right;font-weight:normal;font-family:'Segoe Marker';color:#d31111;font-size:medium">
+                                    -<%#Eval("SENT_ON","{0:dd-MMM-yyy hh:mm:ss tt}")%>
+                                    <hr style="border:1px solid #d31111" />
+                                </td>
+                            </tr>
+                            
+                        </table>
+                        </ItemTemplate>
+                        <LayoutTemplate>
+                            <div id="itemPlaceholderContainer" runat="server" style="">
+                                <span runat="server" id="itemPlaceholder" />
+                            </div>
+                            <div style="">
+                                <asp:DataPager ID="DataPager1" runat="server" PagedControlID="listNotifications" PageSize="8">
+                                    <Fields >
+                                        <asp:NextPreviousPagerField ButtonType="Button" ShowFirstPageButton="True" ShowNextPageButton="False" ShowPreviousPageButton="False"  />
+                                        <asp:NumericPagerField CurrentPageLabelCssClass="linkMedium" />
+                                        <asp:NextPreviousPagerField ButtonType="Button" ShowLastPageButton="True" ShowNextPageButton="False" ShowPreviousPageButton="False"/>
+                                    </Fields>
+                                </asp:DataPager>
+                            </div>
+                        </LayoutTemplate>
+                 
+                    </asp:ListView>
+                    <asp:SqlDataSource ID="SqlDataSourceNotifications" runat="server" ConnectionString="<%$ ConnectionStrings:Dbconnection %>" SelectCommand="SELECT * FROM T_NOTIFICATIONS WHERE SENT_BY IN(SELECT REQ_FROM FROM T_FRIEND_REQUESTS WHERE REQ_TO=@USER_ID)OR SENT_TO IN (SELECT REQ_TO FROM T_FRIEND_REQUESTS WHERE REQ_FROM=@USER_ID)OR SENT_BY IN(SELECT REQ_TO FROM T_FRIEND_REQUESTS WHERE REQ_FROM=@USER_ID)OR SENT_TO IN (SELECT REQ_FROM FROM T_FRIEND_REQUESTS WHERE REQ_TO=@USER_ID)ORDER BY SENT_ON DESC">
+                        <SelectParameters>
+                            <asp:SessionParameter Name="USER_ID" SessionField="USER_ID" />
+                        </SelectParameters>
+                    </asp:SqlDataSource>
+                        </td>
+                    </tr>
+                </table>
+
+     </td>
+        </tr>
+    </table>
+    </form>
+        </center>
+</body>
+</html>

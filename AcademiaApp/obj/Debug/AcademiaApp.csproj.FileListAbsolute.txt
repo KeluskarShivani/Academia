@@ -1,0 +1,54 @@
+D:\Tech\AcademiaApp\AcademiaApp\bin\AcademiaApp.dll.config
+D:\Tech\AcademiaApp\AcademiaApp\bin\AcademiaApp.dll
+D:\Tech\AcademiaApp\AcademiaApp\bin\AcademiaApp.pdb
+D:\Tech\AcademiaApp\AcademiaApp\obj\Debug\AcademiaApp.csprojResolveAssemblyReference.cache
+D:\Tech\AcademiaApp\AcademiaApp\obj\Debug\AcademiaApp.dll
+D:\Tech\AcademiaApp\AcademiaApp\obj\Debug\AcademiaApp.pdb
+D:\2016 Projects\AcademiaApp\AcademiaApp\AcademiaApp\bin\AcademiaApp.dll.config
+D:\2016 Projects\AcademiaApp\AcademiaApp\AcademiaApp\bin\AcademiaApp.dll
+D:\2016 Projects\AcademiaApp\AcademiaApp\AcademiaApp\bin\AcademiaApp.pdb
+D:\2016 Projects\AcademiaApp\AcademiaApp\AcademiaApp\obj\Debug\AcademiaApp.csprojResolveAssemblyReference.cache
+D:\2016 Projects\AcademiaApp\AcademiaApp\AcademiaApp\obj\Debug\AcademiaApp.dll
+D:\2016 Projects\AcademiaApp\AcademiaApp\AcademiaApp\obj\Debug\AcademiaApp.pdb
+D:\S\AcademiaApp\bin\AcademiaApp.dll.config
+D:\S\AcademiaApp\bin\AcademiaApp.dll
+D:\S\AcademiaApp\bin\AcademiaApp.pdb
+D:\S\AcademiaApp\obj\Debug\AcademiaApp.csprojResolveAssemblyReference.cache
+D:\S\AcademiaApp\obj\Debug\AcademiaApp.dll
+D:\S\AcademiaApp\obj\Debug\AcademiaApp.pdb
+G:\ASP.NET\Academia\Academia\AcademiaApp\bin\AcademiaApp.dll.config
+G:\ASP.NET\Academia\Academia\AcademiaApp\bin\AcademiaApp.dll
+G:\ASP.NET\Academia\Academia\AcademiaApp\bin\AcademiaApp.pdb
+G:\ASP.NET\Academia\Academia\AcademiaApp\obj\Debug\AcademiaApp.csprojResolveAssemblyReference.cache
+G:\ASP.NET\Academia\Academia\AcademiaApp\obj\Debug\AcademiaApp.dll
+G:\ASP.NET\Academia\Academia\AcademiaApp\obj\Debug\AcademiaApp.pdb
+F:\Project\drive-download-20170212T095847Z\Academia\Academia\AcademiaApp\bin\AcademiaApp.dll.config
+F:\Project\drive-download-20170212T095847Z\Academia\Academia\AcademiaApp\bin\AcademiaApp.dll
+F:\Project\drive-download-20170212T095847Z\Academia\Academia\AcademiaApp\bin\AcademiaApp.pdb
+F:\Project\drive-download-20170212T095847Z\Academia\Academia\AcademiaApp\obj\Debug\AcademiaApp.csprojResolveAssemblyReference.cache
+F:\Project\drive-download-20170212T095847Z\Academia\Academia\AcademiaApp\obj\Debug\AcademiaApp.dll
+F:\Project\drive-download-20170212T095847Z\Academia\Academia\AcademiaApp\obj\Debug\AcademiaApp.pdb
+G:\ASP.NET\Shivani\Academia\Academia\Academia\AcademiaApp\bin\AcademiaApp.dll.config
+G:\ASP.NET\Shivani\Academia\Academia\Academia\AcademiaApp\bin\AcademiaApp.dll
+G:\ASP.NET\Shivani\Academia\Academia\Academia\AcademiaApp\bin\AcademiaApp.pdb
+G:\ASP.NET\Shivani\Academia\Academia\Academia\AcademiaApp\obj\Debug\AcademiaApp.csprojResolveAssemblyReference.cache
+G:\ASP.NET\Shivani\Academia\Academia\Academia\AcademiaApp\obj\Debug\AcademiaApp.dll
+G:\ASP.NET\Shivani\Academia\Academia\Academia\AcademiaApp\obj\Debug\AcademiaApp.pdb
+F:\Project\Shivani\Shivani\Academia\Academia\Academia\AcademiaApp\bin\AcademiaApp.dll.config
+F:\Project\Shivani\Shivani\Academia\Academia\Academia\AcademiaApp\bin\AcademiaApp.dll
+F:\Project\Shivani\Shivani\Academia\Academia\Academia\AcademiaApp\bin\AcademiaApp.pdb
+F:\Project\Shivani\Shivani\Academia\Academia\Academia\AcademiaApp\obj\Debug\AcademiaApp.csprojResolveAssemblyReference.cache
+F:\Project\Shivani\Shivani\Academia\Academia\Academia\AcademiaApp\obj\Debug\AcademiaApp.dll
+F:\Project\Shivani\Shivani\Academia\Academia\Academia\AcademiaApp\obj\Debug\AcademiaApp.pdb
+C:\Users\SHIVANI_KELUSKAR\Downloads\AcademiaApp-20180105T095902Z-001\AcademiaApp\bin\AcademiaApp.dll.config
+C:\Users\SHIVANI_KELUSKAR\Downloads\AcademiaApp-20180105T095902Z-001\AcademiaApp\bin\AcademiaApp.dll
+C:\Users\SHIVANI_KELUSKAR\Downloads\AcademiaApp-20180105T095902Z-001\AcademiaApp\bin\AcademiaApp.pdb
+C:\Users\SHIVANI_KELUSKAR\Downloads\AcademiaApp-20180105T095902Z-001\AcademiaApp\obj\Debug\AcademiaApp.csprojResolveAssemblyReference.cache
+C:\Users\SHIVANI_KELUSKAR\Downloads\AcademiaApp-20180105T095902Z-001\AcademiaApp\obj\Debug\AcademiaApp.dll
+C:\Users\SHIVANI_KELUSKAR\Downloads\AcademiaApp-20180105T095902Z-001\AcademiaApp\obj\Debug\AcademiaApp.pdb
+E:\OTHERS\AcademiaApp-20180105T095902Z-001\AcademiaApp\bin\AcademiaApp.dll.config
+E:\OTHERS\AcademiaApp-20180105T095902Z-001\AcademiaApp\bin\AcademiaApp.dll
+E:\OTHERS\AcademiaApp-20180105T095902Z-001\AcademiaApp\bin\AcademiaApp.pdb
+E:\OTHERS\AcademiaApp-20180105T095902Z-001\AcademiaApp\obj\Debug\AcademiaApp.csprojResolveAssemblyReference.cache
+E:\OTHERS\AcademiaApp-20180105T095902Z-001\AcademiaApp\obj\Debug\AcademiaApp.dll
+E:\OTHERS\AcademiaApp-20180105T095902Z-001\AcademiaApp\obj\Debug\AcademiaApp.pdb

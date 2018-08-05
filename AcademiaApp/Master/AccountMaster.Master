@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AccountMaster.master.cs" Inherits="AcademiaApp.Master.AccountMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Welcome To Academia</title>
+    <link href="../CSS/Academia.css" rel="stylesheet" />
+</head>
+<body style="margin:0px;background:url('/background/sn.jpg')">
+    <center>
+    <form id="form1" runat="server">
+        <table style="width:1080px;height:auto">
+            <tr>
+                <td style="height:40px;">
+                    <span class="Logo">Academia</span>
+                </td>
+            </tr>
+            <tr>
+                <td style="vertical-align:top;">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+            </table>
+    </form>
+        </center>
+</body>
+</html>

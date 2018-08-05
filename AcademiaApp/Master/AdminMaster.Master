@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminMaster.master.cs" Inherits="AcademiaApp.Master.AdminMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../CSS/Academia.css" rel="stylesheet" />
+</head>
+<body style="margin:0px;margin:0px;">
+    <center>
+    <form id="form1" runat="server">
+    <table style="width:1080px;">
+        <tr>
+            <td style="height:40px;width:250px">
+                    <span class="Logo">Academia</span>
+            </td>
+            <td style="width:100px;text-align:center;">
+                <a href="AdminHome.aspx" class="tdLinkLabel">Home</a>
+            </td>
+            <td style="width:100px;text-align:center;border-left:1px solid #d31111">
+                <a href="Masters.aspx" class="tdLinkLabel">Master</a>
+            </td>
+            <td style="width:100px;text-align:center;border-left:1px solid #d31111">
+                <a href="Students.aspx" class="tdLinkLabel">Students</a>
+            </td>
+            <td style="width:100px;text-align:center;border-left:1px solid #d31111">
+                <a href="Teachers.aspx" class="tdLinkLabel">Teachers</a>
+            </td>
+            <td style="width:100px;text-align:center;border-left:1px solid #d31111">
+                <a href="AllContents.aspx" class="tdLinkLabel">Contents</a>
+            </td>
+            <td style="width:100px;text-align:center;border-left:1px solid #d31111">
+                <a href="AllPosts.aspx" class="tdLinkLabel">Posts</a>
+            </td>
+            <td style="width:100px;text-align:center;border-left:1px solid #d31111">
+                <a href="AllCommunications.aspx" class="tdLinkLabel">Communications</a>
+            </td>
+                        <td style="width:150px;text-align:center;border-left:1px solid #d31111">
+                <a href="ReportAbuse.aspx" class="tdLinkLabel">Report Abuse</a>
+            </td>
+             <td style="width:100px;text-align:center;border-left:1px solid #d31111">
+                <a href="SignOut.aspx" class="tdLinkLabel">Sign Out</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="10">
+                <hr style="border:1px solid #d31111" />
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align:top;" colspan="10">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+            </td>
+        </tr>
+    </table>
+    </form>
+        </center>
+</body>
+</html>

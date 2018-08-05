@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Student.Master.cs" Inherits="AcademiaApp.Master.Student" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="../CSS/Academia.css" rel="stylesheet" />
+</head>
+<body style="margin:0px;margin:0px;background:url('/background/main.jpg')">
+     <center>
+    <form id="form1" runat="server">
+    <table style="width:1080px;border-collapse:collapse">
+        <tr>
+            <td style="height:40px;width:580px">
+<a href="Home.aspx" style="text-decoration:none"><span class="Logo">Academia</span></a>        
+            </td>
+            <td style="width:120px;text-align:center;">
+                <a href="Home.aspx" class="tdLinkLabel">Home</a>
+            </td>
+            <td style="width:80px;text-align:center;border-left:1px solid #d31111">
+                <a href="Friends.aspx" class="tdLinkLabel">Friends</a>
+            </td>
+            <td style="width:100px;text-align:center;border-left:1px solid #d31111">
+                <a href="Contents.aspx" class="tdLinkLabel">Contents</a>
+            </td>
+            <td style="width:100px;text-align:center;border-left:1px solid #d31111"">
+                <a href="Requests.aspx" class="tdLinkLabel">Requests</a>
+            </td>
+            <td style="width:100px;text-align:center;border-left:1px solid #d31111"">
+                <a href="StudentFeedback.aspx" class="tdLinkLabel">Feedback</a>
+            </td>
+             <td style="width:100px;text-align:center;border-left:1px solid #d31111">
+                <a href="SignOut.aspx" class="tdLinkLabel">Sign Out</a>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="7">
+                <hr style="border:1px solid #d31111" />
+            </td>
+        </tr>
+            <tr>
+            <td style="vertical-align:top;" colspan="6">
+                                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+                        </asp:ContentPlaceHolder>
+
+     </td>
+        </tr>
+    </table>
+    </form>
+        </center>
+</body>
+</html>
